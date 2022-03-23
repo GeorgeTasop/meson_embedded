@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 # install required dependencies
 RUN apt-get update
-RUN apt-get -y install \
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
         build-essential \
         pkg-config \
         curl \
