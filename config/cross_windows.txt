@@ -6,7 +6,7 @@ ar = 'arm-none-eabi-ar'
 as = 'arm-none-eabi-as'
 strip = 'arm-none-eabi-strip'
 
-[properties]
+[built-in options]
 c_args = [
     '-mcpu=cortex-m7',
     '-mthumb',
